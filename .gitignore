@@ -1,0 +1,5 @@
+/vendor/
+/public/bower_components/
+/logs/*
+!/logs/README.md
+/.idea/

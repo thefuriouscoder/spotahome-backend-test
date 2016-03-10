@@ -1,0 +1,27 @@
+{
+    "name": "Spotahome Development Test",
+    "description": "Project for Spotahome Development Test",
+    "keywords": ["spotahome","development","test", "backend"],
+    "homepage": "http://github.com/thefuriouscoder/spotahome-backend-test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Rin Martin",
+            "email": "yosoy@diegorinmartin.com",
+            "homepage": "http://www.diegorinmartin.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "sabre/xml": "^1.4",
+        "codeception/codeception": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spotahome\\App\\": "App"
+        }
+    }
+}
